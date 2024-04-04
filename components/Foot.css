@@ -1,0 +1,36 @@
+.footer {
+    background-color: #0E56A2 !important;
+    padding: 20px 0;
+  }
+  .footer-logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+  .footer-contact p, .footer-copy p {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
+  .footer-social a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 1.5rem;
+  }
+  .footer-copy {
+    margin-top: 5.5rem;
+    font-size: 0.8rem;
+  }
+  
+  @media (max-width: 991.98px) {
+    .social {
+      text-align: start;
+    }
+
+  }
+
+  @media (min-width: 992px) {
+    .social {
+      text-align: end;
+    }
+  }
+  

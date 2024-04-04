@@ -1,0 +1,68 @@
+.test {
+    background-color: #0E56A2 !important;
+}
+@media (max-width: 991.98px) {
+    .imgpipo {
+        justify-content: center !important;
+    }
+    .mobile {
+        display: none !important;
+    }
+
+  }
+
+@media (min-width: 992px) {
+    .desktop {
+        display: none;
+    }
+}
+
+.patata {
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.5s;
+    z-index: 1;
+}
+.patata:before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    border-top: 2px solid white !important;
+    border-bottom: 2px solid white !important;
+    transform: scaleY(2);
+    opacity: 0 !important;
+    transition: 0.3s !important;
+}
+.patata:after {
+    content: '' !important;
+    position: absolute !important;
+    top: 0px !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: white !important;
+    transform: scale(0) !important;
+    opacity: 0 !important;
+    transition: 0.3s !important;
+    z-index: -1 !important;
+}
+.patata:hover {
+    color: #0E56A2 !important;
+}
+.patata:hover:before {
+    transform: scaleY(1) !important;
+    opacity: 1 !important;
+}
+.patata:hover:after {
+    transform: scale(1) !important;
+    opacity: 1 !important;
+}
