@@ -1,0 +1,39 @@
+.ani1, .ani2 {
+    transition: 0.3s, color 0.3s !important;
+}
+.ani1:hover {
+    color: #E81C25 !important;
+}
+
+.ani2:hover {
+    color: #0E56A2 !important;
+}
+
+.ilrosso {
+    border-top: 2px solid #E51D29;
+}
+
+.paddino {
+    padding-top: 0.15rem !important;
+}
+
+@media (max-width: 991.98px) {
+    .margino {
+        margin-top: 2rem !important;
+    }
+    .dimenso {
+        font-size: 2rem !important;
+        padding-left: 1rem !important;
+    }
+    .caca {
+        padding-top: 0 !important;
+        margin-top: 1rem !important;
+    }
+    .spatio {
+        padding-left: 1.2rem !important;
+    }
+    .iconz {
+        margin-right: 0.5rem !important;
+    }
+}
+

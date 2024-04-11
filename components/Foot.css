@@ -34,3 +34,21 @@
     }
   }
   
+  .navi{
+    text-align: start !important;
+    padding-left: 9rem !important;
+    text-decoration: none;
+}
+.navi:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+  @media (max-width: 991.98px) {
+    .navi{
+      text-align: start !important;
+      padding-left: 0 !important;
+      padding-bottom: 0.5rem;
+    }
+
+  }

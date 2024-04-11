@@ -24,10 +24,10 @@ const Navbar = () => {
               <Link className="nav-link text-white fw-bold patata" href="#">Chi Siamo</Link>
             </li>
             <li className="nav-item me-3">
-              <Link className="nav-link text-white fw-bold patata" href="#">Contatti</Link>
+              <Link className="nav-link text-white fw-bold patata" href="/contatti">Contatti</Link>
             </li>
             <li className="nav-item me-3">
-              <Link className="nav-link text-white fw-bold patata" href="#">FAQ</Link>
+              <Link className="nav-link text-white fw-bold patata" href="/FAQ">FAQ</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link text-white fw-bold patata" href="#">News</Link>
@@ -54,9 +54,9 @@ const Navbar = () => {
           
               <Link className="nav-link text-white fs-5 fw-bold col-4 text-center pb-3" href="#">NEWS</Link>
          
-              <Link className="nav-link text-white fs-5 fw-bold col-4 text-center pb-3" href="#">FAQ</Link>
+              <Link className="nav-link text-white fs-5 fw-bold col-4 text-center pb-3" href="/FAQ">FAQ</Link>
  
-              <Link className="nav-link text-white fs-5 fw-bold col-4 text-center pb-3" href="#">CONTATTI</Link>
+              <Link className="nav-link text-white fs-5 fw-bold col-4 text-center pb-3" href="/contatti">CONTATTI</Link>
   
         </div>
       </nav>

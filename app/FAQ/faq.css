@@ -1,0 +1,15 @@
+.bordazz{
+    border-left: 6px solid #0E56A2 !important;
+}
+
+.ilrosso {
+    border-top: 2px solid #E51D29;
+}
+
+.piss{
+    text-decoration: none;
+    color: #0E56A2;
+}
+.piss:hover {
+    text-decoration: underline #0E56A2;
+}

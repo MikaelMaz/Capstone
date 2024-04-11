@@ -1,0 +1,52 @@
+button {
+    font-size: 1.3rem !important;
+}
+
+/* Quando l'accordion è chiuso */
+.accordion-button.collapsed {
+  background-color: white !important;
+}
+
+.accordion-button.collapsed:hover {
+  background-color: #d3e5fa3c !important;
+}
+
+/* Quando l'accordion è aperto */
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+}
+
+  /* Cambia il colore della riga sotto l'elemento dell'accordion */
+  .accordion-item {
+    border-width: 1px !important;
+    border-color: #0E56A2 !important;
+    padding-top: 0 !important; 
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    background-image: url('../public/droppini/droprosso.svg'); /* Sostituisci con il percorso della tua icona */
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .accordion-button.collapsed::after {
+    background-image: url('../public/droppini/dropblu.svg');  /* Sostituisci con il percorso della tua icona "rotata" */
+  }
+
+.accordion-button:not(.collapsed) .accordion-title {
+  color: #E41F28; /* Il colore quando l'accordion è aperto */
+  font-weight: 600;
+}
+
+.accordion-button.collapsed .accordion-title {
+  color: #0E56A2; /* Il colore quando l'accordion è chiuso */
+  font-weight: 600;
+}
+
+.accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+
