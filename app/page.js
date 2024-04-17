@@ -1,3 +1,5 @@
+import Carosello from '../components/Carosello';
+
 export default function Home() {
   return (
     <main>
@@ -42,6 +44,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+      <div style={{marginTop: '50rem'}}>
+        <Carosello />
       </div>
     </main>
   )

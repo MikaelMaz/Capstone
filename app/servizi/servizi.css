@@ -1,0 +1,57 @@
+.bordazz{
+    border-left: 6px solid #0E56A2 !important;
+}
+
+.ilrosso {
+    border-top: 2px solid #E51D29;
+}
+
+.quadro {   
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.contornino {
+    border: solid 2px #0E56A2 !important;
+}
+
+.titolo{
+    color: #0E56A2 !important;
+    text-align: start !important;
+    padding-bottom: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    font-weight: 700 !important;
+    font-size: 1.5em !important;  
+    border-bottom: #E51D29 2px solid !important;
+    width: 50% !important;
+}
+
+.paragrafo {
+    font-size: 1.2em;
+}
+
+.card-servizi:nth-of-type(odd) {
+    box-shadow: #0E56A270 -0.4rem 0.4rem 0rem !important;
+}
+.card-servizi:nth-of-type(even) {
+    box-shadow: #0E56A270 0.4rem 0.4rem 0rem !important;
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1201px) {
+    .dimensiun {
+        width: 100% !important;
+    }
+    .edev{
+        width: 40% !important;
+    }
+    .edev2{
+        width: 60% !important;
+    }
+    .paragrafo{
+        font-size: 1rem !important;
+    }
+    .titolo {
+        font-size: 1.2rem !important;
+    }
+}

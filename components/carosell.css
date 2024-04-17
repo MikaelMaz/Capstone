@@ -1,0 +1,114 @@
+.logos {
+    background-color: white;  
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0;
+}
+.logos-slide {
+    display: inline-block !important;
+    animation: 20s slide infinite linear; 
+}
+
+.logos-slide img {
+    margin: 0 40px;
+}
+
+.grandezza, .grandezza2, .grandezza3, .grandezza4, .grandezza5, .grandezza6 {
+    height: 5.33rem;
+    width: 5.33rem; 
+}
+
+.grandezza2{
+    width: 6.47rem; 
+}
+
+.grandezza3 {
+    width: 7.5rem;
+    padding-top: 1rem;
+}
+
+.grandezza4 {
+    width: 7.67rem;
+    padding-top: 1rem;
+}
+
+.grandezza5 {
+    width: 7rem;
+    padding-top: 1rem;
+}
+
+.grandezza6{
+    width: 9.33rem;
+    padding-top: 1rem;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* Media query per dispositivi con larghezza massima di 768px (tablet) */
+@media (max-width: 768px) {
+    .logos-slide img {
+        margin: 0 30px;
+    }
+    .grandezza, .grandezza2, .grandezza3, .grandezza4, .grandezza5, .grandezza6 {
+        height: 4rem;
+        width: 4rem; 
+    }
+
+    .grandezza2{
+        width: 5rem; 
+    }
+
+    .grandezza3 {
+        width: 6rem;
+    }
+
+    .grandezza4 {
+        width: 6.5rem;
+    }
+
+    .grandezza5 {
+        width: 6rem;
+    }
+
+    .grandezza6{
+        width: 7.5rem;
+    }
+}
+
+/* Media query per dispositivi con larghezza massima di 480px (smartphone) */
+@media (max-width: 480px) {
+    .logos-slide img {
+        margin: 0 10px;
+    }
+    .grandezza, .grandezza2, .grandezza3, .grandezza4, .grandezza5, .grandezza6 {
+        height: 3rem;
+        width: 3rem; 
+    }
+
+    .grandezza2{
+        width: 4rem; 
+    }
+
+    .grandezza3 {
+        width: 5rem;
+    }
+
+    .grandezza4 {
+        width: 5.5rem;
+    }
+
+    .grandezza5 {
+        width: 5rem;
+    }
+
+    .grandezza6{
+        width: 6.5rem;
+    }
+}

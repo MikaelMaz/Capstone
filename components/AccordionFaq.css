@@ -48,5 +48,21 @@ button {
   box-shadow: none;
 }
 
+.accordion-body p {
+  font-size: 1.2rem !important;
+}
+.contattaci {
+  text-decoration: none;
+  font-weight: 600;
+  color: #0E56A2;
+}
+.contattaci:hover{
+  text-decoration: underline;
+}
+.bald {
+  color: #0E56A2;
+  font-weight: 600;
+}
+
 
 
