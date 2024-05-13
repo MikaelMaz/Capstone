@@ -29,10 +29,10 @@ function servizi() {
           </div>
         </div>
         <div className="mb-5 row card-servizi">
-          <div className="col-12 col-md-12 col-lg-6 p-0 h-75">
-            <Image src={Mecanics} className="w-100 h-75" alt="..." priority />
+          <div className="col-12 col-md-12 col-lg-6 p-0 h-75 edev">
+            <Image src={Mecanics} className="w-100 h-75 dimesiun" alt="..." priority />
           </div>
-          <div className="col-12 col-md-12 col-lg-6 bg-light p-4 d-flex flex-column">
+          <div className="col-12 col-md-12 col-lg-6 bg-light p-4 d-flex flex-column edev2">
             <h3 className="titolo mt-auto">Riparazione Completa</h3>
             <p className="paragrafo mb-auto">
               Dalla testa ai piedi, ogni componente della tua moto viene
@@ -44,10 +44,10 @@ function servizi() {
           </div>
         </div>
         <div className="mb-5 row card-servizi">
-          <div className="col-12 col-md-12 col-lg-6 order-lg-last p-0 h-75">
-            <Image src={Controllo} className="w-100 h-75" alt="..." priority />
+          <div className="col-12 col-md-12 col-lg-6 order-lg-last p-0 h-75 edev">
+            <Image src={Controllo} className="w-100 h-75 dimesiun" alt="..." priority />
           </div>
-          <div className="col-12 col-md-12 col-lg-6 bg-light p-4 d-flex flex-column">
+          <div className="col-12 col-md-12 col-lg-6 bg-light p-4 d-flex flex-column edev2">
             <h3 className="titolo mt-auto">Gestione Pneumatici</h3>
             <p className="paragrafo mb-auto">
               Siamo sempre pronti ad aiutarti qualunque siano le tue esigenze.
@@ -59,10 +59,10 @@ function servizi() {
           </div>
         </div>
         <div className="mb-5 row card-servizi">
-          <div className="col-12 col-md-12 col-lg-6 p-0 h-75">
-            <Image src={Restauro} className="w-100 h-75" alt="..." priority />
+          <div className="col-12 col-md-12 col-lg-6 p-0 h-75 edev">
+            <Image src={Restauro} className="w-100 h-75 dimesiun" alt="..." priority />
           </div>
-          <div className="col-12 col-md-12 col-lg-6 bg-light p-4 d-flex flex-column">
+          <div className="col-12 col-md-12 col-lg-6 bg-light p-4 d-flex flex-column edev2">
             <h3 className="titolo mt-auto">Restauro di Moto d'Epoca</h3>
             <p className="paragrafo mb-auto">
               Se hai una moto d’epoca che ha bisogno di una rimessa in moto, sei
@@ -74,10 +74,10 @@ function servizi() {
           </div>
         </div>
         <div className="mb-5 row card-servizi">
-          <div className="col-12 col-md-12 col-lg-6 order-lg-last p-0 h-75">
-            <Image src={Mecanics} className="w-100 h-75" alt="..." priority />
+          <div className="col-12 col-md-12 col-lg-6 order-lg-last p-0 h-75 edev">
+            <Image src={Mecanics} className="w-100 h-75 dimesiun" alt="..." priority />
           </div>
-          <div className="col-12 col-md-12 col-lg-6 bg-light p-4 d-flex flex-column">
+          <div className="col-12 col-md-12 col-lg-6 bg-light p-4 d-flex flex-column edev2">
             <h3 className="titolo mt-auto">Revisione</h3>
             <p className="paragrafo mb-auto">
               Se la tua moto necessita di un controllo completo per assicurare
@@ -89,10 +89,10 @@ function servizi() {
           </div>
         </div>
         <div className="mb-5 row card-servizi">
-          <div className="col-12 col-md-12 col-lg-6 p-0 h-75">
-            <Image src={Controllo} className="w-100 h-75" alt="..." priority />
+          <div className="col-12 col-md-12 col-lg-6 p-0 h-75 edev">
+            <Image src={Controllo} className="w-100 h-75 dimesiun" alt="..." priority />
           </div>
-          <div className="col-12 col-md-12 col-lg-6 bg-light p-4 d-flex flex-column">
+          <div className="col-12 col-md-12 col-lg-6 bg-light p-4 d-flex flex-column edev2">
             <h3 className="titolo mt-auto">Elaborazioni e Tuning</h3>
             <p className="paragrafo mb-auto">
               Se vuoi tirare fuori il massimo dalla tua moto, siamo qui per te.
@@ -104,10 +104,10 @@ function servizi() {
           </div>
         </div>
         <div className="mb-5 row card-servizi">
-          <div className="col-12 col-md-12 col-lg-6 order-lg-last p-0 h-75">
-            <Image src={Restauro} className="w-100 h-75" alt="..." priority />
+          <div className="col-12 col-md-12 col-lg-6 order-lg-last p-0 h-75 edev">
+            <Image src={Restauro} className="w-100 h-75 dimesiun" alt="..." priority />
           </div>
-          <div className="col-12 col-md-12 col-lg-6 bg-light p-4 d-flex flex-column">
+          <div className="col-12 col-md-12 col-lg-6 bg-light p-4 d-flex flex-column edev2">
             <h3 className="titolo mt-auto">Diagnostica Elettronica</h3>
             <p className="paragrafo mb-auto">
               Utilizzando strumenti diagnostici all’avanguardia, come il sistema

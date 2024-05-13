@@ -14,7 +14,7 @@ import Yamaha from "../public/img-carosello/yamaha.svg";
 
 const Carosello = () => {
   return (
-    <div className="logos">
+    <div className="logos margine-sopra">
       <div className="logos-slide">
         <Image src={Aprilia} alt="..." className="grandezza4"/>
         <Image src={BMW} alt="..." className="grandezza" />

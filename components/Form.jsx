@@ -14,7 +14,7 @@ const Form = () => {
   const [formErrors, setFormErrors] = useState({});
   const [successMessage, setSuccessMessage] = useState("");
   const [privacyAccepted, setPrivacyAccepted] = useState(false);
-  const [showSuccessMessage, setShowSuccessMessage] = useState(false); // State per controllare la visibilità del messaggio di successo
+  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
 
   const validateForm = (formValues) => {
     // Validazione dei campi del modulo
@@ -65,7 +65,7 @@ const Form = () => {
       );
       console.log("Email inviata con successo!");
       setSuccessMessage("Mail inviata con successo!");
-      setShowSuccessMessage(true); // Mostra il messaggio di successo
+      setShowSuccessMessage(true);
       formRef.current.reset();
       setFormErrors({});
       emailInputRef.current.classList.remove("filled");

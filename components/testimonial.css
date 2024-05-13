@@ -1,0 +1,147 @@
+.bordazz {
+  border-left: 6px solid #0e56a2 !important;
+}
+.ombra {
+  box-shadow: #0e56a270 0.4rem 0.4rem 0rem !important;
+}
+.ombra-testimonial {
+  box-shadow: #0e56a2 0.2rem 0.2rem 0.4rem 0.1rem !important;
+}
+
+.giovi {
+  background-image: url("../public/img/giovi.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  margin: auto;
+}
+.mirco {
+  background-image: url("../public/img/mirco.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  margin: auto;
+}
+.testimonial-titolo {
+  color: #0e56a2;
+  font-weight: 600;
+  font-size: 1.3rem;
+  border-bottom: #e51d29 2px solid !important;
+  padding-bottom: 0.5rem;
+  margin: 1rem 10rem 0 10rem !important;
+}
+.testimonial-paragrafo {
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  margin: 0.5rem 4rem 0 4rem !important;
+}
+
+.testimonial-relativo {
+  position: relative;
+  margin-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+.testimonial-link {
+  color: #0e56a2;
+  font-weight: 600;
+  font-size: 1rem;
+  position: absolute;
+  right: 0;
+  left: 0;
+  text-decoration: none;
+}
+.testimonial-link::after {
+  content: "";
+  position: absolute;
+  width: 26.5%;
+  margin: 0 4rem 0 13.8rem;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0e56a2;
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+.testimonial-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+@media (min-width: 701px) and (max-width: 995px) {
+  .testimonial-titolo {
+    color: #0e56a2;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-bottom: #e51d29 2px solid !important;
+    padding-bottom: 0.5rem !important;
+    margin-bottom: 0 !important;
+    margin: 1rem 4rem 0 4rem !important;
+    text-align: center;
+  }
+  .testimonial-sceglici {
+    text-align: center;
+    padding-top: 0.5rem !important;
+    margin-top: 0.5rem !important;
+  }
+  .testimonial-link {
+    font-size: 1rem;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+  }
+  .testimonial-link::after {
+    display: none;
+  }
+  .testimonial-relativo {
+    margin-top: 2.5rem;
+  }
+  .ombra {
+    box-shadow: none !important;
+  }
+  .giovi {
+    margin-top: 3rem !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .testimonial-titolo {
+    color: #0e56a2;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-bottom: #e51d29 2px solid !important;
+    padding-bottom: 0.5rem !important;
+    margin-bottom: 0 !important;
+    margin: 1rem 4rem 0 4rem !important;
+    text-align: center;
+  }
+  .testimonial-paragrafo {
+    text-align: center;
+    padding-top: 0.5rem !important;
+    margin: 0.5rem 2rem 0 2rem !important;
+  }
+  .testimonial-link {
+    font-size: 1rem;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+  }
+  .testimonial-link::after {
+    display: none;
+  }
+  .testimonial-relativo {
+    margin-top: 2.5rem;
+  }
+  .ombra {
+    box-shadow: none !important;
+  }
+  .giovi {
+    margin-top: 3rem !important;
+  }
+}

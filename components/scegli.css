@@ -1,0 +1,141 @@
+.bordazz{
+    border-left: 6px solid #0E56A2 !important;
+}
+
+.paragrafo-sceglici {
+    font-size: 1rem;
+}
+
+.bald {
+    color: #0E56A2;
+    font-weight: 600;
+}
+
+.immagine-sceglici {
+    width: 75%;
+    height: auto;
+}
+
+.sceglici-titolo{
+    color: #0E56A2;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-bottom: #E51D29 2px solid !important; 
+    width: 65% !important;
+    padding-bottom: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.sceglici-relativo {
+    position: relative;
+    margin-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.sceglici-link {
+    color: #0E56A2;
+    font-weight: 600;
+    font-size: 1rem;
+    position: absolute;
+}
+.sceglici-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0E56A2;
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+}
+.sceglici-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+@media (min-width: 701px) and (max-width: 995px) {
+    .sceglici-titolo{
+        color: #0E56A2;
+        font-weight: 600;
+        font-size: 1.2rem;
+        border-bottom: #E51D29 2px solid !important; 
+        width: 100% !important;
+        padding-bottom: 0.5rem !important;
+        margin-bottom: 0 !important;
+        text-align: center;
+    }
+    .paragrafo-sceglici {
+        text-align: center;
+        padding-top: 0.5rem !important;
+        margin-top: 0.5rem !important;
+    }
+    .sceglici-link {
+        font-size: 1rem;
+        position: absolute;
+        text-align: center;
+        right: 0;
+        left: 0;
+    }
+    .sceglici-link::after {
+        display: none;
+    }
+    .custom-col:not(:last-child) {
+        margin-bottom: 2.5rem;
+    }
+    .servizietti-relativo {
+        margin-top: 2.5rem;
+    }
+    .ombra {
+        box-shadow: none !important;
+    }
+    .immagine-sceglici {
+        margin-bottom: 1rem !important;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .sceglici-titolo{
+        color: #0E56A2;
+        font-weight: 600;
+        font-size: 1.2rem;
+        border-bottom: #E51D29 2px solid !important; 
+        width: 100% !important;
+        padding-bottom: 0.5rem !important;
+        margin-bottom: 0 !important;
+        text-align: center;
+    }
+    .paragrafo-sceglici {
+        text-align: center;
+        padding-top: 0.5rem !important;
+        margin-top: 0 !important;
+    }
+    .sceglici-link {
+        font-size: 1rem;
+        position: absolute;
+        text-align: center;
+        right: 0;
+        left: 0;
+    }
+    .sceglici-link::after {
+        display: none;
+    }
+    .custom-col:not(:last-child) {
+        margin-bottom: 2.5rem;
+    }
+    .servizietti-relativo {
+        margin-top: 2.5rem;
+    }
+    .ombra {
+        box-shadow: none !important;
+    }
+    .immagine-sceglici {
+        margin-bottom: 1.5rem !important;
+        width: 100%;
+        height: auto;
+    }
+}
+

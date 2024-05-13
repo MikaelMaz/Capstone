@@ -42,6 +42,11 @@
     padding-top: 1rem;
 }
 
+.margine-sopra {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
 @keyframes slide {
     from {
         transform: translateX(0);
@@ -80,6 +85,10 @@
     .grandezza6{
         width: 7.5rem;
     }
+    .margine-sopra {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
 }
 
 /* Media query per dispositivi con larghezza massima di 480px (smartphone) */
@@ -110,5 +119,9 @@
 
     .grandezza6{
         width: 6.5rem;
+    }
+    .margine-sopra {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
     }
 }
